@@ -1,0 +1,75 @@
+body
+{
+background-color: black;
+margin: 0;
+font-family: "Arial Black";
+}
+
+.square
+{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%; /*// curves the edges*/
+	transition: background 1s; /*//fades when the background is changed*/
+}
+
+#container
+{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1
+{
+	background-color: skyblue;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+}
+
+#stripe
+{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+button
+{
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	height:100%;
+	font-weight: 700;
+	color: skyblue;
+	transition: all 0.75s; /*//fades when the any property concerning the button is changed*/
+	outline: none; /*// gets rid of the outline made when buttons are clicked*/
+}
+
+button:hover
+{
+	color:white;
+	background: skyblue;
+}
+
+.selected
+{
+	background-color: skyblue;
+	color: white;
+}
+
+#colorDisplay
+{
+	font-size: 200%;
+	text-transform: uppercase;
+}
+
+#status
+{
+	display: inline-block;
+	width: 20%;
+}
